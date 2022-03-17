@@ -7,4 +7,4 @@ spring:
     prefix: classpath:/templates/
     suffix: .html
 api:
-    url: http://localhost:8083/api
+    url: http://localhost:8089/api
