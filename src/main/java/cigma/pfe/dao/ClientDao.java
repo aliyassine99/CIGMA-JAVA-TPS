@@ -10,7 +10,6 @@ import java.util.List;
 
 
 @Repository
-public interface ClientDao extends JpaRepository<Client,Long> {
-
-
+public interface ClientDao {
+    public Client save(Client p);
 }

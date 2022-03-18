@@ -12,6 +12,7 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @Entity(name = "TClients")
+@Inheritance(strategy = InheritanceType.JOINED)
 public class Client {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
